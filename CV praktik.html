@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Mochamad Daffa Azhar</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f2f2f2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        .header {
+        background: #1f2937;
+        color: white;
+        padding: 40px;
+        text-align: center;
+        }
+        
+        .foto {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid white;
+        display: block;
+        margin: 0 auto 20px auto;
+        }
+            
+            
+            
+            
+        
+
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 18px;
+            color: #d1d5db;
+        }
+
+        .content {
+            display: flex;
+        }
+
+        .left {
+            width: 35%;
+            background: #e5e7eb;
+            padding: 30px;
+        }
+
+        .right {
+            width: 65%;
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section h2 {
+            font-size: 20px;
+            color: #1f2937;
+            border-bottom: 2px solid #1f2937;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+        }
+
+        .section p {
+            font-size: 14px;
+            margin-bottom: 7px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 7px;
+            font-size: 14px;
+        }
+
+        .skill {
+            margin-bottom: 10px;
+        }
+
+        .skill-name {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .bar {
+            width: 100%;
+            height: 8px;
+            background: #ccc;
+            border-radius: 5px;
+        }
+
+        .progress {
+            height: 8px;
+            background: #1f2937;
+            border-radius: 5px;
+        }
+
+        .java {
+            width: 65%;
+        }
+
+        .html {
+            width: 80%;
+        }
+
+        .computer {
+            width: 75%;
+        }
+
+        .english {
+            width: 70%;
+        }
+
+        .experience {
+            margin-bottom: 20px;
+        }
+
+        .experience h3 {
+            font-size: 17px;
+            color: #111827;
+        }
+
+        .experience span {
+            font-size: 13px;
+            color: #666;
+        }
+
+        @media (max-width: 700px) {
+            .content {
+                flex-direction: column;
+            }
+
+            .left,
+            .right {
+                width: 100%;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+        
+           <img src="pewebb.jpg" class="foto" alt="Foto Profil">
+            <h1>Mochamad Daffa Azhar</h1>
+            <p>Pelajar X PPLG 4 | Web Developer Pemula</p>
+        </header>
+
+        <div class="content">
+
+            <aside class="left">
+
+                <div class="section">
+                    <h2>Kontak</h2>
+                    <p>📱 085723600445</p>
+                    <p>📧 daffaazifar@gmail.com</p>
+                    <p>📍 Jawa Barat, Indonesia</p>
+                </div>
+
+                <div class="section">
+                    <h2>Keahlian</h2>
+
+                    <div class="skill">
+                        <div class="skill-name">HTML & CSS</div>
+                        <div class="bar">
+                            <div class="progress html"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-name">Java</div>
+                        <div class="bar">
+                            <div class="progress java"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-name">Komputer</div>
+                        <div class="bar">
+                            <div class="progress computer"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-name">Bahasa Inggris</div>
+                        <div class="bar">
+                            <div class="progress english"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Bahasa</h2>
+                    <p>Indonesia - Aktif</p>
+                    <p>Inggris - Menengah</p>
+                </div>
+
+            </aside>
+
+            <main class="right">
+
+                <div class="section">
+                    <h2>Tentang Saya</h2>
+                    <p>
+                        Saya adalah pelajar SMK jurusan Pengembangan
+                        Perangkat Lunak dan Gim (PPLG) yang memiliki
+                        ketertarikan pada dunia komputer, pemrograman,
+                        dan teknologi. Saya sedang mengembangkan
+                        kemampuan dalam membuat website dan aplikasi.
+                    </p>
+                </div>
+
+                <div class="section">
+                    <h2>Pendidikan</h2>
+
+                    <div class="experience">
+                        <h3>SMK - Pengembangan Perangkat Lunak dan Gim</h3>
+                        <span>2026 - Sekarang</span>
+                        <p>
+                            Mempelajari dasar pemrograman, pembuatan
+                            website, komputer, dan pengembangan perangkat lunak.
+                        </p>
+                    </div>
+
+                    <div class="experience">
+                        <h3>MTs / SMP</h3>
+                        <span>Selesai</span>
+                        <p>
+                            Menyelesaikan pendidikan tingkat menengah pertama.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Pengalaman / Proyek</h2>
+
+                    <div class="experience">
+                        <h3>AI Smart Waste Sorter</h3>
+                        <p>
+                            Membuat konsep sistem pemilahan sampah berbasis
+                            AI dan mikrokontroler ESP32 sebagai proyek pembelajaran.
+                        </p>
+                    </div>
+
+                    <div class="experience">
+                        <h3>Praktik Perakitan Komputer</h3>
+                        <p>
+                            Mempelajari dan mempraktikkan pengenalan komponen
+                            komputer seperti RAM, PSU, processor, HDD, SSD,
+                            CMOS battery, dan motherboard.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Tujuan</h2>
+                    <p>
+                        Mengembangkan kemampuan di bidang pemrograman dan
+                        teknologi untuk menjadi seorang Web Developer atau
+                        Programmer di masa depan.
+                    </p>
+                </div>
+
+            </main>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
